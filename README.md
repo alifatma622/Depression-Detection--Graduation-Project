@@ -8,6 +8,15 @@ This project detects depression using two distinct methods:
 
 ---
 
+## 📚 Team Members:
+- Fatma Ali Ali Elshihna
+- Walaa Khaled Ibrahim Eliwa
+- Sohila Essam Mohamed Salem
+- Mariam Abdeen Abdelmaksoud mazroa
+- Salma Ayman Mohamed Lashien
+
+
+---
 ## Features
 
 - **Facial Analysis**: Detects emotions like sadness or anger from images.
@@ -41,8 +50,8 @@ root/
 
 ## Datasets
 
-- **Facial Expression Dataset**: [Link to Kaggle](#)
-- **Text Sentiment Dataset**: [Link to Kaggle](#)
+- **Facial Expression Dataset**: [[Link to Kaggle](https://www.kaggle.com/datasets/ishantewari/depression-detection)](#)
+- **Text Sentiment Dataset**: [[Link to Kaggle](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch)](#)
 
 ---
 
@@ -75,26 +84,17 @@ Access the app at `http://127.0.0.1:5000/`.
 ## Screenshots
 
 - **Facial Analysis**: ![Facial Analysis](#)
+- 
 - **Text Analysis**: ![Text Analysis](#)
+- 
 - **Web App**: ![Web App](#)
+![web_proj - frame at 1m6s](https://github.com/user-attachments/assets/b5d2455d-f8ee-4a06-aefe-de74741d9e95)
+![web_proj - frame at 2m25s](https://github.com/user-attachments/assets/bed8a176-45a7-47a0-a08a-c16189742621)
+![web_proj - frame at 1m30s](https://github.com/user-attachments/assets/fe2ab68c-8c38-418c-aea3-05f556826d0a)
 
 ---
 
-## Contributing
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/YourFeature`.
-3. Commit your changes: `git commit -m 'Add feature'`.
-4. Push to the branch: `git push origin feature/YourFeature`.
-5. Open a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
-
----
 
 ## Acknowledgments
 
