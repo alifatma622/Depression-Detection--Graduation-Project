@@ -72,13 +72,6 @@ pip install -r requirements.txt
 - **Facial Analysis**: Open `facial_analysis/facial_analysis.ipynb` and follow the instructions.
 - **Text Analysis**: Open `text_analysis/text_analysis.ipynb` and follow the instructions.
 
-### (Optional) Run the Web App
-```bash
-cd app
-python app.py
-```
-Access the app at `http://127.0.0.1:5000/`.
-
 ---
 
 ## Screenshots
@@ -102,7 +95,4 @@ Access the app at `http://127.0.0.1:5000/`.
 - **Inspiration**: Derived from research papers and similar projects on depression detection.
 
 ---
-
-> Replace placeholders (e.g., `[Link to Kaggle](#)` and `![Facial Analysis](#)`) with the actual URLs and images specific to your project.
-
 
