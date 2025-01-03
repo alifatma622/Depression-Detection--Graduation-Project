@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="/static/bootstrap.min.css"  /> 
+   <link  rel="stylesheet"  href="/static/style.css"/> 
+
+</head>
+<body>
+   <section id="Quiz">
+      <nav  id="navbar-example" class="navbar navbar-expand-lg py-3" data-bs-theme="dark">
+         <div class="container-fluid">
+            <a class="navbar-brand ps-2 text-uppercase" >Depression Detection</a>
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent"
+               aria-expanded="false"
+               aria-label="Toggle navigation"
+            >
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold text-uppercase">
+                  
+ 
+                 <ul class="navbar-nav me-auto mb-2 me-5 pe-5 mb-lg-0">
+                   <li class="nav-item ">
+                     <a class="nav-link   p-1" href="http://localhost:4200/home" routerLinkActive='activee text-light' >Home</a>
+                   </li>
+                   <li class="nav-item ">
+                     <a class="nav-link   p-1" href="http://localhost:4200/Depression" routerLinkActive='activee text-light' >Detection</a>
+                   </li>
+                 
+                 
+           
+                 
+                   <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle p-1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Test
+                     </a>
+                     <ul class="dropdown-menu">
+                       <li><a class="dropdown-item py-1 m-auto text-center" href="http://127.0.0.1:5000" routerLinkActive='activee text-light'>TXT</a></li>
+                       <li><a class="dropdown-item py-1 m-auto text-center" href="/imgtest" routerLinkActive='activee text-light'>Img</a></li>
+                      
+                     </ul>
+                     <li class="nav-item ">
+                       <a class="nav-link   p-1" href="http://localhost:4200/Aboutus" routerLinkActive='activee text-light' >About Us</a>
+                     </li>
+                     <li class="nav-item ">
+                       <a class="nav-link   p-1" href="http://localhost:4200/Login" routerLinkActive='activee text-light'>Logout</a>
+                     </li>
+             
+                   </ul>
+                 
+ 
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <div class="txtimg ">
+ 
+         <img src="../static/txt10.jpg" alt="txt" class="w-100">
+          <div class="for p-4 fw-bold w-100 ">
+             <h1 class="pb-3 text-center">DepressionTest using Text</h1>
+         <p class="px-5 mx-5">This Test is for people who are worried they might be suffering from the symptoms of depression or are concerned that a loved-one might be depressed.</p>
+ 
+     </div>
+      </div>
+ 
+ 
+     <div class="content m-5 d-flex flex-column justify-content-center align-items-center   ">
+       <div class="result mb-3 w-50 ">
+         <h3>This Test helps you to find your mental health whether you are Depressed or NotDepressed</h3>
+         <!-- <h4>Result:</h4>
+         <ul>
+         <li>If you are Depressed,It Will Show you 1</li>
+         <li>If you are Not Depressed,It Will Show you 0</li>
+     </ul> -->
+     </div>
+       <div class="txt text-start w-75">
+         <form action="{{ url_for('predict')}}" method="post" id="testtxt">
+         <label class="p-2 fw-bolder fa-2x">List your feelings</label><br><br>
+         <textarea placeholder=" What do you feel?" class="w-100 text-center pt-3 " name="mood_pred"></textarea>
+         <button class="btn d-block ms-auto  border-none border-0   btn-xl pd-5  "  id="check" type="submit">Emotion Check</button>
+         </form>
+      </div>
+      <div class="p-3 m-auto my-5  w-75  text-center "  >   <h3> <span class="s-color">{{ pred }}</span><h3>
+         <p></p>
+       </div>
+    
+ 
+ 
+     </div>
+ 
+ 
+ 
+ 
+ </section>  
+ <script ></script>
+</body>
+</html>
+ 

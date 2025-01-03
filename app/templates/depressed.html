@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="/static/bootstrap.min.css"  /> 
+   <link  rel="stylesheet"  href="/static/style.css"/> 
+
+</head>
+<body>
+    <section id="blog">
+        <nav  id="navbar-example" class="navbar navbar-expand-lg py-3" data-bs-theme="dark">
+            <div class="container-fluid">
+               <a class="navbar-brand ps-2 text-uppercase" >Depression Detection</a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold text-uppercase">
+                     
+    
+                    <ul class="navbar-nav me-auto mb-2 me-5 pe-5 mb-lg-0">
+                      <li class="nav-item ">
+                        <a class="nav-link   p-1" href="http://localhost:4200/home" routerLinkActive='activee text-light' >Home</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link   p-1" href="http://localhost:4200/Depression" routerLinkActive='activee text-light' >Detection</a>
+                      </li>
+                    
+                    
+              
+                    
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Test
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item py-1 m-auto text-center" href="http://127.0.0.1:5000" routerLinkActive='activee text-light'>TXT</a></li>
+                          <li><a class="dropdown-item py-1 m-auto text-center" href="/imgtest" routerLinkActive='activee text-light'>Img</a></li>
+                         
+                        </ul>
+                        <li class="nav-item ">
+                          <a class="nav-link   p-1" href="http://localhost:4200/Aboutus" routerLinkActive='activee text-light' >About Us</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link   p-1" href="http://localhost:4200/Login" routerLinkActive='activee text-light'>Logout</a>
+                        </li>
+                
+                      </ul>
+                    
+    
+                  </ul>
+               </div>
+            </div>
+         </nav>
+    
+         <div class="quiz p-3 m-auto my-5  w-75 shadow-lg  ">
+            <div class="row">
+              <div class="col-"><h3>Result:<span class="s-color">"you're depressed"</span></h3>
+                <p class="p-0 m-0">Remember that depression is a common condition and that many people are going through, and look for help not something you should be ashamed</p>
+              <p class="p-0 m-0">You deserve happiness and luxury ,so please take care of yourself</p>
+            <p class="p-0"> You can find more information about depression below</p></div>
+              <div class="col-6 p-3 d-flex justify-content-around m-auto test"> 
+                   
+                </div>
+            </div>
+          </div>
+        
+        
+        <div class="container ">
+         <div class="row  m-5 g-4 ">
+        <div class="col-2"><img src="../static/s2.png" alt="b1" class="w-100 rounded imgcol"href="http://localhost:4200/About"></div>
+        <div class="col-4 m-auto"><h3><a href="http://localhost:4200/About" >All About Depression</a></h3>
+        <p>Depression definition,sympotoms, types and causes.</p>
+        </div>
+        <div class="col-2"><img src="../static/q&a.jpeg" alt="b1" class="change w-100 rounded imgcol" href="http://localhost:4200/Qu&Answer"></div>
+        <div class="col-4 m-auto"><h5> <a href="http://localhost:4200/Qu&Answer" >Your Questions Answered about Depression </a> </h5>
+        </div>
+        <div class="col-2"><img src="../static/wo.jpeg" alt="b1" class="w-100 rounded imgcol"href="http://localhost:4200/effect"></div>
+        <div class="col-4 m-auto"><h4><a href="http://localhost:4200/effect" >How Depression affects Relationship & work </a></h4>
+          <p>Side Effects about depression</p>
+        </div>
+        <div class="col-2"><img src="../static/treatments.jpeg" alt="b1" class="w-100 rounded imgcol"href="http://localhost:4200/Treatment" ></div>
+        <div class="col-4 m-auto"><h3><a href="http://localhost:4200/Treatment" >Treatment </a></h3>
+        <p>Psychotherapy,Medications,Brain stimulation therapy,Hospitalization for depression & Self-help strategies
+        </p></div>
+        <div class="col-2"><img src="../static/lab.jpeg" alt="b1" class="w-100 rounded imgcol hotline"routerLink="http://localhost:4200/Hotlines"></div>
+        <div class="col-4 m-auto"><h3><a href="http://localhost:4200/Hotlines">Hotline Numbers</a></h3>
+        <p>Depression Hotline Numbers </p></div>
+        <div class="col-2"><img src="../static/state.jpeg" alt="b1" class="w-100 rounded imgcol " href="http://localhost:4200/phrases"></div>
+        <div class="col-4 m-auto"><h3><a href="http://localhost:4200/phrases"> phrases</a></h3>
+        <p>encouraging phrases</p></div>
+         </div>
+         </div>
+        
+             
+        
+        
+        
+        
+        
+        </section>
+</body>
+</html>
